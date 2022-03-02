@@ -18,10 +18,6 @@ HEADER:ALGORITHM & TOKEN TYPE
   "typ": "JWT",
   "alg": "HS256"
 }
-{
-  "typ": "JWT",
-  "alg": "HS256"
-}
 
 PAYLOAD:DATA
 
