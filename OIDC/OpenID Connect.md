@@ -10,7 +10,9 @@
 - EU（End User），代表最终用户。
 - RP（Relying Party），代表认证服务的依赖方，就是上面我提到的第三方软件。
 - OP（OpenID Provider），代表提供身份认证服务方。
-<br>
+
+---
+
 EU、RP、OP与OAuth2中角色的对应关系如下：
 <img src="OAuth2和OIDC角色对应关系.webp" />
 
