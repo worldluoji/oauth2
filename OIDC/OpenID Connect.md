@@ -1,4 +1,9 @@
 # OpenID Connect
+认证和授权的区别：
+```
+认证（Authentication）："请证明你是张三"
+授权（Authorization）："张三可以访问A、B资源，但不能访问C资源"
+```
 
 ## 1. 什么是OpenID Connect
 - OpenID Connect简称OIDC。其实就是一种用户身份认证的开放标准。
