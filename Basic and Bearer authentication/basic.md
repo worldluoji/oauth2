@@ -8,7 +8,7 @@ $ curl -XPOST -H"Authorization: Basic ${basic}" http://127.0.0.1:8080/login
 ```
 Basic 认证虽然简单，但极不安全。使用 Basic 认证的唯一方式就是将它和 SSL 配合使用，来确保整个认证过程是安全的。在设计系统时，要遵循一个通用的原则：不要在请求参数中使用明文密码，也不要在任何存储中保存明文密码。
 
-<br>
+---
 
 ## Nginx配置basic认证
 在 Nginx 中配置基本认证（Basic Authentication）主要是为了保护特定的网站目录或路由，确保只有拥有有效凭证的用户才能访问。以下是配置 Nginx Basic 认证的基本步骤：
